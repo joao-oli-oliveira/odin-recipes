@@ -1,6 +1,25 @@
+*,
+*::after,
+*::before {
+        box-sizing: border-box;
+        }
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
 .landing {
     text-align: center;
     background-color: #fef9f7;
+}
+
+h1 {
+margin: 40px 0 60px 0;
+}
+
+.title {
+    background-color: #fef9f7;
+    font-size: 18px;
 }
 
 .container {
@@ -10,12 +29,26 @@
 }
 
 .recipe {
+    display: block;
     border: 2px solid #afa49e;
     border-radius: 5px;
-    padding-top: 39px;
+    padding-top: 100px;
     color: #000000;
     font-weight: 800;
     background-size: cover;
+    margin: 10px auto;
+    text-align: center;
+}
+.recipe:hover {
+    display: block;
+    border: 2px solid #afa49e;
+    border-radius: 10px;
+    padding-top: 100px;
+    color: #000000;
+    font-weight: 800;
+    background-size: cover;
+    margin: 10px auto;
+    text-align: center;
 }
 
 #html {
